@@ -26,6 +26,7 @@ public class EjerciciosBasicos {
  /**
   * Si	la	velocidad	es	de	60	o	menos,	el	resultado	es	0	
   * Si	la	velocidad	es	de	entre	61	y	80	inclusive,	el	resultado	es	1
+  * Si	la	velocidad	es	81	o	más,	el	resultado	es	2
   */
    public int multa(int velocidad, boolean birthday){
        //si es tucumpleaños, le resta 5 a la velocidad
