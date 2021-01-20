@@ -45,6 +45,22 @@ public class EjerciciosBasicos {
        return 2;
    }
     
+   /**
+    * 
+    * @param numero el numero a evaluar si es o no vanidoso. Es vanidoso si
+    * es multiplo de 11 o uno más de un múltiplo de 11
+    * @return 
+    */
+   
+    public boolean muyVanidoso(int numero){
+        if (numero % 11 == 0){ //si la división da como resto cero 
+            return true;
+        }
+        return false;
+    }
+   
+   
+   
     /**
      * @param args the command line arguments
      */
@@ -52,14 +68,21 @@ public class EjerciciosBasicos {
         //crear un objeto de la clase en la que estamos (EjerciciosBasicosJava)
         EjerciciosBasicos ejercicio = new EjerciciosBasicos();
         ejercicio.fiestaArdillas(0, true);
-         System.out.println("Ejercicio Ardillas:");
+        System.out.println("Ejercicio 01 Ardillas:");
         System.out.println(ejercicio.fiestaArdillas(30, false));
         System.out.println(ejercicio.fiestaArdillas(50, false));
         System.out.println(ejercicio.fiestaArdillas(70, true));
         //
-        System.out.println("Ejercicio Multa:");
+        System.out.println("Ejercicio 02 Multa:");
         System.out.println(ejercicio.multa(60, false));
         System.out.println(ejercicio.multa(65, false));
         System.out.println(ejercicio.multa(65, true));
+        
+        
+        
+        System.out.println("Ejercicio 03 muy Vanidoso:");
+        System.out.println(ejercicio.muyVanidoso(22));
+        System.out.println(ejercicio.muyVanidoso(23));
+        System.out.println(ejercicio.muyVanidoso(24));
     }  
 }
