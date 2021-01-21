@@ -53,7 +53,7 @@ public class EjerciciosBasicos {
     */
    
     public boolean muyVanidoso(int numero){
-        if (numero % 11 == 0){ //si la división da como resto cero 
+        if (numero % 11 < 2){ //si la división da como resto cero  ó uno
             return true;
         }
         return false;
