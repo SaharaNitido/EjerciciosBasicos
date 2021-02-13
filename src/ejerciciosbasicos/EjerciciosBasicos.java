@@ -72,7 +72,9 @@ public class EjerciciosBasicos {
         System.out.println(ejercicio.fiestaArdillas(30, false));
         System.out.println(ejercicio.fiestaArdillas(50, false));
         System.out.println(ejercicio.fiestaArdillas(70, true));
-        //
+        
+        
+        
         System.out.println("Ejercicio 02 Multa:");
         System.out.println(ejercicio.multa(60, false));
         System.out.println(ejercicio.multa(65, false));
